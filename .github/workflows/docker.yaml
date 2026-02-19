@@ -6,6 +6,8 @@ on:
     branches: [ main ]
     paths:
       - 'images.txt'
+  schedule:
+    - cron: 0 1 * * *
 
 env:
   ALIYUN_REGISTRY: "${{ secrets.ALIYUN_REGISTRY }}"
@@ -29,12 +31,16 @@ jobs:
           swap-size-mb: 128
           remove-dotnet: 'true'
           remove-haskell: 'true'
-          build-mount-path: '/var/lib/docker/'
+          # 如果空间还是不够用，可以把以下开启，清理出更多空间
+          remove-android: 'true'
+          remove-codeql: 'true'
+          build-mount-path: '/var/lib/'
 
       - name: Restart docker
-        run: sudo service docker restart
+        run: |
+          sudo service containerd restart
+          sudo service docker     restart
 
-        
       - name: Sync and Push to Aliyun
         id: sync_step
         run: |

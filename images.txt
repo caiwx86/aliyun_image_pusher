@@ -1,18 +1,90 @@
-#---Doris---
-apache/doris:fe-2.1.11
-apache/doris:be-2.1.11
-apache/doris:fe-3.0.8
-apache/doris:be-3.0.8
-apache/doris:fe-3.1.3
-apache/doris:be-3.1.3
-apache/doris:fe-4.0.2
-apache/doris:be-4.0.2
-apache/doris:operator-25.8.0
-#---Flink---
-apache/flink:2.2.0
-#---spark---
-apache/spark:4.0.1
-#---postgres---
+ollama/ollama
+rustfs/rustfs
+lscr.io/linuxserver/chrome:latest
+l429609201/misaka_danmu_server:latest
+wushuo894/ani-rss
+neosmemo/memos:stable
+caiwx0806/netease-music-dl:latest
+continuumio/anaconda3
+riderlty/fontinass:latest
+riderlty/fontinass:noproxy
+ghcr.io/linkwarden/linkwarden
+ghcr.io/mealie-recipes/mealie:nightly
+yisier1/nps
+yisier1/npc
+duan2001/npc
+duan2001/nps
+ghcr.io/metowolf/vcards:1.0.0
+gotanaccount/obsidian-livesync
+ghcr.io/idmedia/hass-unraid:latest
+hslr/sun-panel:latest
+linuxserver/heimdall
+lobehub/lobe-chat
+ghcr.io/open-webui/open-webui:main
+p3terx/aria2-pro
+xhongc/music_tag_web:latest
+tomsquest/docker-radicale
+adminer
+lscr.io/linuxserver/obsidian
+resilio/sync:latest
+triliumnext/trilium:latest
+testdasi/grafana-unraid-stack:latest
+--platform=linux/arm64 ddsderek/easyimage:latest
+--platform=linux/arm64 xiaoyaliu/alist:hostmode
+--platform=linux/amd64 gitea/gitea
+--platform=linux/arm64 gitea/gitea
+# --platform=linux/arm64 whyour/qinglong:2
+# --platform=linux/amd64 whyour/qinglong:2
+kasmweb/nginx:1.25.3
+python:alpine3.19
+amilys/embyserver:latest
+gotson/komga
+linuxserver/jellyfin
+jxxghp/moviepilot:latest
+jxxghp/moviepilot-v2
+xhofe/alist
+tecnativa/docker-socket-proxy
+lscr.io/linuxserver/transmission
+estrellaxd/auto_bangumi
+authelia/authelia
+--platform=linux/arm64 authelia/authelia
+advplyr/audiobookshelf
+linuxserver/calibre
+lscr.io/linuxserver/calibre-web:latest
+hectorqin/reader
+linuxserver/code-server
+deluan/navidrome
+diygod/rsshub:chromium-bundled
+traefik
+--platform=linux/arm64 traefik
+linuxserver/freshrss
+lscr.io/linuxserver/firefox:latest
+lscr.io/linuxserver/firefox:kasm
+jlesage/firefox:latest
+nevinee/qbittorrent:latest
+linuxserver/syncthing
+vaultwarden/server
+johngong/baidunetdisk
+ghcr.io/homarr-labs/homarr:latest
+etherpad/etherpad
+postgres:15
 postgres:18
-httpd:2.4.66
-louislam/uptime-kuma:1
+jlesage/nginx-proxy-manager
+mzz2017/v2raya
+ghcr.io/metatube-community/metatube-server:dev
+ghcr.io/metatube-community/metatube-server:latest
+kopia/kopia
+# stainless403/mdcx-builtin-webtop-base
+stainless403/mdcx-builtin-gui-base
+outlinewiki/outline:latest
+bitnami/redis:latest
+ghcr.io/androidseb25/igotify-notification-assist:latest
+gotify/server
+fireflyiii/core:latest
+lscr.io/linuxserver/kavita
+lscr.io/linuxserver/homeassistant
+lscr.io/linuxserver/wikijs
+iyuucn/iyuuplus
+minio/minio
+80x86/filebrowser
+aronmarinelli/bitwarden-secure-sync:latest
