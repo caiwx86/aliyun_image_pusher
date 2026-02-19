@@ -1,3 +1,4 @@
+oleduc/docker-obsidian-livesync-couchdb:stable
 ollama/ollama
 rustfs/rustfs
 lscr.io/linuxserver/chrome:latest
